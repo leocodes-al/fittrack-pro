@@ -1,0 +1,5 @@
+/*  Usado apenas para importar os demais arquivos de estilos de uma unica vez */
+
+@import "./variable.css";
+@import "./reset.css";
+@import "./typography.css";

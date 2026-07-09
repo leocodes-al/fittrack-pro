@@ -1,0 +1,29 @@
+:root{
+
+--background:#121212;
+--sidebar:#181818;
+--card:#1E1E1E;
+
+--primary: #B8FF3B;
+--primary-foreground: #121212;
+
+--text:#FFFFFF;
+--text-secondary:#B8B8B8;
+--text-muted: #8A8A8A;
+
+--border: rgba(255,255,255,.08);
+--border-input: rgba(255,255,255,.10);
+
+--success: #22C55E;
+--warning: #F59E0B;
+--danger: #E5484D;
+
+--border:#2C2C2C;
+
+--shadow-card: 0 20px 60px -20px rgba(0,0,0,.6);
+
+--shadow-primary: 0 8px 30px -8px rgba(184,255,59,.35);
+
+--radius:16px;
+
+}
