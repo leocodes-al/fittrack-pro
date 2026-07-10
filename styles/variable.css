@@ -40,13 +40,13 @@
 
   /* ============= SPACING ============= */
 
-  --space-xs: 4px;
-  --space-sm: 8px;
-  --space-md: 16px;
-  --space-lg: 24px;
-  --space-xl: 32px;
-  --space-2xl: 40px;
-  --space-3xl: 48px;
+  --space-xs: 4px;    /*spaçamentos muito pequenos (ícones, badges, pequenos ajustes)*/
+  --space-sm: 8px;    /*Espaçamentos entre elementos pequenos (ícones, labels, botões)*/
+  --space-md: 16px;   /*Espaçamento padrão da aplicação (padding de cards, formulários e componentes */
+  --space-lg: 24px;   /*Separação entre grupos de componentes*/
+  --space-xl: 32px;   /*Espaçamento entre seções principais e padding de páginas*/
+  --space-2xl: 40px;  /*Separação entre grandes blocos de conteúdo*/
+  --space-3xl: 48px;  /*Espaçamento máximo utilizado no sistema*/
 
   /* ============= LAYOUT ============= */
 
