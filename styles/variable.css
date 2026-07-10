@@ -18,8 +18,8 @@
   --text-muted: #8A8A8A;
 
   /* Borders */
-  --border: rgba(255,255,255,.08);
-  --border-input: rgba(255,255,255,.10);
+  --border-default: 1px solid rgba(255,255,255,.08);
+  --border-input: 1px solid rgba(255,255,255,.10);
 
   /* Status */
   --success: #22C55E;

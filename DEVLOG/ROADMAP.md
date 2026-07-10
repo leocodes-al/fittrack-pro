@@ -10,7 +10,7 @@ Desenvolver um sistema SaaS moderno para gestão de academias e alta performance
 
 ---
 
-# 📌 Sprint 1 — Fundação do Projeto
+# 📌 Sprint 1 — Fundação do Projeto 🟢 Concluída
 
 ## Estrutura Inicial
 
@@ -54,11 +54,11 @@ Desenvolver um sistema SaaS moderno para gestão de academias e alta performance
 
 ## Layouts
 
-- [ ] Criar StudentLayout
-- [ ] Criar estrutura principal
-- [ ] Área Sidebar
-- [ ] Área Header
-- [ ] Área Main
+- [x] Criar StudentLayout
+- [x] Criar estrutura principal
+- [x] Área Sidebar
+- [x] Área Header
+- [x] Área Main
 
 ---
 

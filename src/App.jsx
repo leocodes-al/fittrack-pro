@@ -1,4 +1,4 @@
-import StudentLayout from './layouts/StudentLayout'
+import StudentLayout from './layouts/StudentLayout/StudentLayout'
 
 function App() {
 
