@@ -3,3 +3,57 @@
   background-color: var(--sidebar);
   border: var(--border-default);
 }
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+}
+
+.sidebar__logo img {
+  padding: var(--radius-sm);
+  background-color: var(--primary);
+  border-radius: var(--radius-lg);
+}
+
+.sidebar__logo span {
+  color: var(--text-secondary);
+}
+
+.sidebar__list {
+  padding: var(--space-lg);
+}
+
+.sidebar__item {
+  margin-bottom: var(--space-sm);
+  color: var(--text-secondary);
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.sidebar__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.sidebar__avatar {
+  width: 180px;
+  position: absolute;
+  bottom: var(--space-lg);
+  left: var(--space-lg);
+  border: var(--border-default);
+  padding: var(--radius-md);
+  border-radius: var(--radius-xl);
+  background-color: var(--surface);
+}
+
+.sidebar__avatar p {
+  font-size: 0.8rem;
+}
+
+
