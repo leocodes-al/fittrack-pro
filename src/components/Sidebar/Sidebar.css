@@ -8,13 +8,18 @@
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-lg);
+  padding: var(--space-sm);
 }
 
 .sidebar__logo img {
   padding: var(--radius-sm);
   background-color: var(--primary);
   border-radius: var(--radius-lg);
+  margin-top: 16px;
+}
+
+.sidebar__logo h4 {
+  margin-top: 16px;
 }
 
 .sidebar__logo span {
@@ -26,19 +31,42 @@
 }
 
 .sidebar__item {
-  margin-bottom: var(--space-sm);
-  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
 }
 
 .sidebar__link {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+
+  padding: var(--space-sm) var(--space-md); /*em cima --space-sm, nas laterais --space-md*/
+  border-radius: var(--radius-md);
+
+  color: var(--text-secondary);
+  transition: var(--transition-fast);
+}
+
+.sidebar__link:hover {
+  color: var(--text);
+  background-color: var(--surface);
+}
+
+.sidebar__link--active {
+  color: var(--text);
+  background-color: var(--surface);
+}
+
+.sidebar__link--active span {
+  color: var(--primary);
 }
 
 .sidebar__icon {
   width: 18px;
   height: 18px;
+}
+
+.sidebar__link--active .sidebar__icon {
+  color: var(--primary);
 }
 
 .sidebar__avatar {
@@ -55,5 +83,3 @@
 .sidebar__avatar p {
   font-size: 0.8rem;
 }
-
-

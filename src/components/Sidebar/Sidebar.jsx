@@ -52,10 +52,12 @@ function Sidebar() {
 
           {sidebarItems.map((item) => (
             <li key={item.rota} className="sidebar__item">
-              <NavLink to={item.rota} className="sidebar__link">
+
+              <NavLink to={item.rota} className={({ isActive }) => isActive ? "sidebar__link sidebar__link--active" : "sidebar__link"} >
                 <item.icon className="sidebar__icon" />
                 {item.nome}
               </NavLink>
+
             </li>
           ))}
 
