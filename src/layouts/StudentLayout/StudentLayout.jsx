@@ -11,7 +11,6 @@ function StudentLayout() {
       <Sidebar />
 
       <div className="student-layout__content">
-          <Header />
 
         <main className="student-layout__main">
           <div className="container">
