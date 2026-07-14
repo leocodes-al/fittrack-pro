@@ -6,20 +6,6 @@ function Dashboard() {
   return (
     <section className="dashboard">
 
-      <header className="header">
-
-        <div className="header__info">
-          <h4>Bom dia, Leonardo</h4>
-          <p>Quinta-feira, 9 de julho</p>
-        </div>
-
-        <div className="header__actions">
-          <button>Notificações</button>
-          <button>Perfil</button>
-        </div>
-
-      </header>
-
       <div className="dashboard__main">
 
         <main className="main">
@@ -31,7 +17,7 @@ function Dashboard() {
           </div>
 
           <div className="dashboard__stats">
-            <div className="dashboard__duration">
+            <div className="duration">
               <div className="label">
                 <Clock className="icon" />
                 <p>DURAÇÃO</p>
@@ -39,7 +25,7 @@ function Dashboard() {
               <span>45 minutos</span>
             </div>
 
-            <div className="dashboard__exercises">
+            <div className="exercises">
               <div className="label">
                 <ListChecks className="icon" />
                 <p>EXERCÍCIOS</p>
@@ -47,7 +33,7 @@ function Dashboard() {
               <span>12</span>
             </div>
 
-            <div className="dashboard__focus">
+            <div className="focus">
               <div className="label">
                 <Target className="icon" />
                 <p>FOCO</p>

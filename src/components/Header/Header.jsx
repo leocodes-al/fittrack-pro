@@ -1,3 +1,5 @@
+import {Bell, User} from '../../assets/icons/lucideIcons'
+
 import "./Header.css"
 
 function Header() {
@@ -12,8 +14,8 @@ function Header() {
         </div>
 
         <div className="header__actions">
-          <button>Notificações</button>
-          <button>Perfil</button>
+          <button><Bell/></button>
+          <button><User/></button>
         </div>
 
       </header>
