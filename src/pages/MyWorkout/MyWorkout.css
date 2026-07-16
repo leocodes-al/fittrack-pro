@@ -1,0 +1,53 @@
+.myworkout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 2rem;
+  gap: var(--space-2xl);
+  padding: var(--space-lg);
+}
+
+.title {
+  
+}
+
+.exercise {
+  width: 100%;
+  max-width: 1040px;
+  background-color: var(--surface);
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  border: var(--border-default);
+}
+
+.exercise__title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.exercise__title h2 {
+  font-size: 2rem;
+}
+
+.exercise__stats {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.exer__stats {
+  margin-top: var(--space-xl);
+  background-color: var(--sidebar);
+  padding: var(--space-md);
+  border-radius: var(--radius-xl);
+  width: 14rem;
+  border: var(--border-default);
+
+  font-size: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
