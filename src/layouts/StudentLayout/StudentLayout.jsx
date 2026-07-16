@@ -1,6 +1,7 @@
+import { Outlet } from "react-router-dom"
+
 import Sidebar from "../../components/Sidebar/Sidebar"
 import Header from "../../components/Header/Header"
-import Dashboard from "../../pages/Dashboard/Dashboard"
 
 import "./StudentLayout.css"
 
@@ -11,15 +12,16 @@ function StudentLayout() {
       <Sidebar />
 
       <div className="student-layout__content">
-        <Header/>
+        <Header />
 
         <main className="student-layout__main">
           <div className="container">
-            <Dashboard />
+            <Outlet />
           </div>
-
         </main>
+
       </div>
+
     </div>
   );
 }

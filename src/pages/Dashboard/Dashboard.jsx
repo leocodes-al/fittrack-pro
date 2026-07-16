@@ -36,7 +36,7 @@ function Dashboard() {
               <Target className="icon__stats" />
               <p>FOCO</p>
             </div>
-            <span>Parte superior do corpo</span>
+            <span>Hipertofria</span>
           </div>
         </div>
 

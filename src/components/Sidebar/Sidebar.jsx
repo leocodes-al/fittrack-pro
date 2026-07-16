@@ -14,12 +14,12 @@ function Sidebar() {
     },
     {
       nome: "Meu Treino",
-      rota: "/meu-treino",
+      rota: "/treino",
       icon: Dumbbell,
     },
     {
       nome: "Corridas",
-      rota: "/corridas",
+      rota: "/corrida",
       icon: Footprints,
     },
     {
