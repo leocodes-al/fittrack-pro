@@ -1,21 +1,21 @@
 .myworkout {
-  width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
 
-  margin-top: 2rem;
+.myworkout__content {
+  width: 100%;
+  max-width: 1040px;
+
+  display: flex;
+  flex-direction: column;
   gap: var(--space-2xl);
+
   padding: var(--space-lg);
 }
 
-.title {
-  
-}
-
 .exercise {
-  width: 100%;
-  max-width: 1040px;
   background-color: var(--surface);
   padding: var(--space-xl);
   border-radius: var(--radius-xl);
@@ -25,7 +25,12 @@
 .exercise__title {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: var(--space-sm);
+}
+
+.exercise__title span {
+  color: var(--primary);
+  font-weight: bold;
 }
 
 .exercise__title h2 {
@@ -50,4 +55,80 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-xs);
+}
+
+.list__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.list__exercise {
+  display: flex;
+  flex-direction: column;
+
+  border: var(--border-default);
+  border-radius: var(--radius-xl);
+  background-color: var(--surface);
+}
+
+.list__exercise p {
+  color: white;
+}
+
+.list__exercise li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--space-md);
+  margin: 0 var(--space-md);
+}
+
+.list__exercise li + li {
+  border-top: var(--border-default);
+}
+
+.number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 100%;
+
+  background-color: rgb(50, 50, 50);
+
+  margin-right: var(--space-md);
+}
+
+.list__exercise hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, .08);
+}
+
+.annotation {
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+
+  border: var(--border-default);
+  border-radius: var(--radius-xl);
+  background-color: var(--surface);
+}
+
+.icon__annotation {
+  width: 1.2rem;
+  height: 1.2rem;
+
+  color: var(--primary);
+  margin-left: var(--space-xl);
+}
+
+.title_annotation p {
+  font-size: 0.8rem;
 }
