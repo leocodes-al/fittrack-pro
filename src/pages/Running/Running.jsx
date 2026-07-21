@@ -1,4 +1,4 @@
-
+import "./Running.css"
 
 function Running() {
 
@@ -9,7 +9,7 @@ function Running() {
 
         <div className="running__tilte">
           <div className="running__label">
-            <h4>Resumo Geral</h4>
+            <h3>Resumo Geral</h3>
             <p>Suas estatísticas de corrida em um só lugar.</p>
           </div>
           <button className="add__running">+ Corrida</button>
