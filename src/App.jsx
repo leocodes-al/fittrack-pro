@@ -4,6 +4,7 @@ import StudentLayout from './layouts/StudentLayout/StudentLayout'
 
 import Dashboard from "./pages/Dashboard/Dashboard"
 import MyWorkout from "./pages/MyWorkout/MyWorkout"
+import Running from "./pages/Running/Running"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Navigate to="/Dashboard" />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="treino" element={<MyWorkout />} />
+        <Route path="corrida" element={<Running />} />
       </Route>
 
     </Routes>
